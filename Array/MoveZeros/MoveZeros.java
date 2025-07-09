@@ -26,7 +26,7 @@ Constraints:
 class Solution {
     public void moveZeroes(int[] nums) {
       int insertPos=0;
-      for (var num : nums){
+      for (int num : nums){
           if(num !=0){
               nums[insertPos]=num;
               insertPos++;

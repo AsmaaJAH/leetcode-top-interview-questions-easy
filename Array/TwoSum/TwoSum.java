@@ -34,6 +34,8 @@ Only one valid answer exists.
 
 */
 
+import java.util.*;
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         if(nums.length ==0) return new int[]{};
