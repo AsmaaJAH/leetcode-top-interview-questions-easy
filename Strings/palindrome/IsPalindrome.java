@@ -1,3 +1,4 @@
+
 /*
 
 Valid Palindrome
@@ -31,6 +32,8 @@ Constraints:
 1 <= s.length <= 2 * 105
 s consists only of printable ASCII characters.
 */
+package Strings.palindrome;
+
 class Solution {
     public boolean isPalindrome(String s) {
         StringBuilder cleanCopy= new StringBuilder();
