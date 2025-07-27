@@ -23,6 +23,9 @@ Output: 0
 Constraints:
 
 0 <= n <= 5 * 106
+
+Hint: Use Sieve of Eratosthenes.
+
  */
 import java.util.*;
 class Solution {
