@@ -37,7 +37,7 @@ import 'dart:math';
 class Solution {
 
   bool isPowerOfThree(int n) {
-    if ( n <= 0) return false;
+    if ( n <= 0) return false; // negative numbers can not be multiple of 3, they are multiple of -3, because for example: 3^-1=1/3 
     //n=3^x
     //log n= xlog3
     // x=logn/log3
